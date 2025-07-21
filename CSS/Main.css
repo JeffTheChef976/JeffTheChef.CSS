@@ -1,0 +1,107 @@
+/**
+ * @name JeffTheChef・CSS
+ * @description My personal CSS for Discord.
+ * @author jeffthechef976
+ * @version 1.0.0
+ * @invite 
+ * @website https://github.com/JeffTheChef976/JeffTheChef.CSS
+ * @source https://github.com/JeffTheChef976/JeffTheChef.CSS/blob/main/JeffTheChef.css
+ * @authorId 977016112879386644
+ * @authorLink 
+*/
+
+/* Message Hover Animation */
+[data-list-item-id*="message"],
+[class*="messageListItem"],
+[id*="message-"],
+li[class*="messageListItem"] {
+    position: relative;
+    border-radius: var(--wave-border-radius);
+    transition: all 0.3s ease;
+}
+[data-list-item-id*="message"]:hover,
+[class*="messageListItem"]:hover,
+li[class*="messageListItem"]:hover {
+    transform: translateX(6px);
+}
+
+/* Acrylic Quick Switcher */
+.quickswitcher_ac6cb0 {
+  background: 0 0 !important;
+  padding: 10px;
+  background-color: transparent !important;
+  backdrop-filter: blur(20px);
+  > * {
+    background: inherit !important;
+    background-color: inherit !important;
+  }
+  .scroller_ac6cb0 {
+    margin: 0;
+    border-radius: 0 0 8px 8px;
+    scrollbar-width: none;
+    padding: 4px !important;
+  }
+  .input_ac6cb0 { height: 50px }
+  .input_ac6cb0[value=""] { border-radius: 8px }
+  .input_ac6cb0:not([value=""]) { border-radius: 8px 8px 0 0 }
+  .protip_ac6cb0 { display: none }
+  .result__71961 { border-radius: 8px }
+  .content__99f8c > div:not(.result__71961):not([aria-hidden=true]) > .content__71961 {
+    height: 20px;
+    line-height: 20px;
+    > .header__71961 {
+      line-height: 20px;
+      margin-top: 0;
+      margin-bottom: 4px;
+    }
+  }
+}
+.backdrop__1a911:has(+ .layer_bc663c .quickswitcher_ac6cb0) { opacity: 0 }
+
+/* [User] is yapping */
+.typingDots_b88801 > .ellipsis_b88801+.text_b88801 {
+  font-size: 0;
+  height: 16px;
+  >strong {
+    font-size: 12px;
+    &::after {
+      color: var(--text-secondary);
+      font-weight: 500;
+    }
+    &:last-child::after {
+      content: " is yapping...";
+    }
+    &:last-child:not(:first-child)::after {
+      content: " are yapping...";
+    }
+    &:nth-last-child(2)::after {
+      content: " and "
+    }
+    &:nth-last-child(3)::after {
+      content: ", ";
+    }
+  }
+  &:not(:has(>strong))::after {
+    font-size: 12px;
+    content: "Several people are yapping...";
+  }
+}
+
+/* Blur usernames when viewing profiles until hover */
+span[class^="userTagUsername__"] {
+  padding: 1px;
+  filter: blur(4px);
+  &:hover {
+    filter: blur(0px);
+  }
+}
+
+/* Hide Member List Activity Cards */
+h3[class^=membersGroup_]:has(span[role="button"]) {
+  display: none;
+}
+div[class^=container_] > aside[class^=membersWrap_] > div[class^=members_] > div[role^=list] > div:has(div[class*="openOnHover_"]) {
+  display: none;
+}
+
+/* - */
