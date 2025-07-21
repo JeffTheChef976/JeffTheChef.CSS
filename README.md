@@ -1,4 +1,4 @@
-### This is my personal github repository, where I store all of my personal CSS snippets and additions for Discord.
+### This is my personal github repository, where I store all of my personal CSS snippets and additions for my modded Discord client.
 
 > As of now, there are three seperate css files, <ins>jeffthechef.css</ins>, <ins>acrylic.css</ins>, and <ins>extra.css</ins> 
 
