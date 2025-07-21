@@ -10,3 +10,12 @@
 
 /* Simplified Panels Area */
 @import url(https://davart154.github.io/Themes/Snippets/Simplified%20Panel%20Area/SimplifiedPanelArea.css);
+
+/* Animated Message Options */
+@import url("https://raw.githubusercontent.com/HeroOfDungeon/snippets/refs/heads/main/Less%20Animations.css");
+
+:root {
+    --animation-speed: 0.1s;
+}
+
+/* - */
