@@ -85,7 +85,7 @@ li[class*="messageListItem"]:hover {
   }
 }
 
-/* Blur usernames when viewing profiles until hover */
+/* Blur usernames when viewing profiles until hovered over */
 span[class^="userTagUsername__"] {
   padding: 1px;
   filter: blur(4px);
