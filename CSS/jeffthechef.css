@@ -102,9 +102,4 @@ div[class^=container_] > aside[class^=membersWrap_] > div[class^=members_] > div
   display: none;
 }
 
-/* Round Banner Decorations */ 
-.profileEffects__01370 {
-    border-radius: var(--radius-lg);
-}
-
 /* - */
