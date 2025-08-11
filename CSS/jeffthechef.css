@@ -102,4 +102,7 @@ div[class^=container_] > aside[class^=membersWrap_] > div[class^=members_] > div
   display: none;
 }
 
+/* Round Banner Decorations */ 
+@import url(https://raw.githubusercontent.com/sadan4/discordStyles/refs/heads/main/src/cleanup/roundedProfileDecorations.css);
+
 /* - */
