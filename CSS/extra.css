@@ -11,3 +11,8 @@
 /* Simplified Panels Area */
 @import url(https://davart154.github.io/Themes/Snippets/Simplified%20Panel%20Area/SimplifiedPanelArea.css);
 
+/*More Compact Buttons*/
+@import url('https://raw.githubusercontent.com/Krammeth/css-snippets/refs/heads/main/CompactButtons.css');
+
+/* Image Viewer Tweaks */
+@import url('https://raw.githubusercontent.com/Benzeel/Bennys-Css-Snippets/refs/heads/main/ImageViewerTweaks.css');
