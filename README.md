@@ -5,8 +5,6 @@
 ### <ins>Here is the guide to those CSS files contain</ins>.
 > `jeffthechef.css` | The main css file you will probably need, it has all of the core additions to my discord client.
 
-> `acrylic.css` | This css file contains snippets that make some elements acrylic/transparent.
-
 > `extra.css` | These are css snippets that you will paste into your QuickCSS on Discord.
 
 ### _<ins>How to use these CSS additions for your own Discord client</ins>._
@@ -19,5 +17,4 @@
 
 > `jeffthechef.css` | https://raw.githubusercontent.com/JeffTheChef976/JeffTheChef.CSS/refs/heads/main/CSS/jeffthechef.css
 
-> `acrylic.css` | https://raw.githubusercontent.com/JeffTheChef976/JeffTheChef.CSS/refs/heads/main/CSS/acrylic.css
 
