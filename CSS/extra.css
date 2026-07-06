@@ -2,7 +2,7 @@
  * @name JeffTheChef・QuickCSS
  * @description The extra parts of my personal CSS for Discord, paste these into your clients QuickCSS.
  * @author jeffthechef976
- * @version 1.0.1
+ * @version 1.0.2
  * @website https://github.com/JeffTheChef976/JeffTheChef.CSS
  * @source https://github.com/JeffTheChef976/JeffTheChef.CSS/blob/main/CSS/extra.css
  * @authorId 977016112879386644
@@ -19,5 +19,8 @@
 
 /* Expanded Edit */
 @import url('https://raw.githubusercontent.com/fckyough/css1/refs/heads/main/vcSnippets/prettifiedAndExpandedEditedMessageTimestamp.css');
+
+/* Mana Profile */
+@import url(https://davart154.github.io/Themes/Snippets/Mana%20Profile/ManaProfileSource.css);
 
 /* - */
